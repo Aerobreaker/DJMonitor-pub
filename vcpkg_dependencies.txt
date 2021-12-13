@@ -1,0 +1,26 @@
+curl:x64-windows
+curl:x64-windows-static
+curl:x86-windows
+curl:x86-windows-static
+curl[ssl]:x64-windows
+curl[ssl]:x64-windows-static
+curl[ssl]:x86-windows
+curl[ssl]:x86-windows-static
+curl[tool]:x64-windows
+curl[tool]:x64-windows-static
+curl[tool]:x86-windows
+curl[tool]:x86-windows-static
+curl[winssl]:x64-windows
+curl[winssl]:x64-windows-static
+curl[winssl]:x86-windows
+curl[winssl]:x86-windows-static
+exprtk:x64-windows
+exprtk:x64-windows-static
+exprtk:x86-windows
+exprtk:x86-windows-static
+zlib:x64-windows
+zlib:x64-windows-static
+zlib:x86-windows
+zlib:x86-windows-static
+
+.\vcpkg install curl:x64-windows curl:x64-windows-static curl:x86-windows curl:x86-windows-static curl[ssl]:x64-windows curl[ssl]:x64-windows-static curl[ssl]:x86-windows curl[ssl]:x86-windows-static curl[tool]:x64-windows curl[tool]:x64-windows-static curl[tool]:x86-windows curl[tool]:x86-windows-static curl[winssl]:x64-windows curl[winssl]:x64-windows-static curl[winssl]:x86-windows curl[winssl]:x86-windows-static exprtk:x64-windows exprtk:x64-windows-static exprtk:x86-windows exprtk:x86-windows-static zlib:x64-windows zlib:x64-windows-static zlib:x86-windows zlib:x86-windows-static

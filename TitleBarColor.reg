@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+; Format of color:
+;   "{KEY}"=dword:ff{BB}{GG}{RR}
+; where:
+;  KEY = The name of the key (AccentColor or AccentColorInactive)
+;  BB  = The hex code for the blue portion of the color
+;  GG  = The hex code for the green portion of the color
+;  RR  = The hex code for the red portion of the color
+;
+; dword is used to indicate that the key has a dword value
+; The first two nibbles were f in the AccentColor key when I first looked at it so I copied that and it worked
+; The How-To Geek article I used for inspiration indicated that the first two nibbles can also be 0:
+;     https://www.howtogeek.com/258162/how-to-add-color-to-inactive-title-bars-in-windows-10/
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\DWM]
+"AccentColor"=dword:ff484a4c
+"AccentColorInactive"=dword:ff0e0e0f
+
